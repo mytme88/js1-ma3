@@ -25,7 +25,7 @@ const queryString = document.location.search;
 const params = new URLSearchParams(queryString);
 let userId = params.get("userId");
 
-/*if (!userId) {
+if (!userId) {
   document.location.href = "/third.html";
 } else {
   userId = parseInt(userId, 10);
