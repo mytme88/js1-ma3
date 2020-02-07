@@ -34,7 +34,7 @@ if (!userId) {
   } else if (userId >= 10) {
     document.location.href = "/second.html";
   }
-}*/
+}
 
 // Question 5
 const container = document.querySelector(".container");
@@ -51,7 +51,7 @@ animalList.insertBefore(parrots, animalList.childNodes[2]);
 
 // Question 7
 const ratingDiv = document.querySelector(".rating");
-fetch("https://api.rawg.io/api/games/3801")
+fetch("https://api.rawg.iso/api/games/3801")
   .then(response => {
     return response.json();
   })
